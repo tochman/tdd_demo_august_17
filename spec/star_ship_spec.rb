@@ -11,7 +11,7 @@ describe StarShip do
     expect(subject.go_to_warp(1)).to eq "I am at warp 1"
   end
 
-  it 'does not accept negative numbers' do
+  it '#go_to_warp does not accept negative numbers' do
     expect(subject.go_to_warp(-1)).to eq "Are you kidding me?"
   end
 end
